@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         distro: [latest, fedora_rawhide, opensuse, ubuntu, ubuntu_devel, ubuntu_rolling, ubuntu_18.04]
-        toolchain: [gnu]
+        toolchain: [gnu, clang]
         cmake_build_type: [Release]
         minimal: [false]
         own_gmx: [false]
